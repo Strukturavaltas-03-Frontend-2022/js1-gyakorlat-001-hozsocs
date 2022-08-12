@@ -1,9 +1,10 @@
 'use strict';
     
-let elements = document.querySelectorAll('.button');
+
 function handleClick(i=0) {
+    let elements = document.querySelectorAll('.button');
         elements[i].addEventListener('click', function () {
-            console.log ('Item ' + elements[i].textContent); 
+            console.log (elements[i].textContent); 
         })
 }
 
